@@ -1,0 +1,24 @@
+{
+  "name": "WooueonBook_Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FE-Dev-Labs/WooyeonBook_Server.git",
+  "author": "FE_Wani <62400479+baesee0806@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.0",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
